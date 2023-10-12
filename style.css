@@ -1,0 +1,35 @@
+h2 {
+    color: greenyellow; font-size: 28; background-color: black; font-family: cursive;
+}
+p {
+    font-size: 22;
+}
+li {
+    font-size: 22;
+}
+a {
+    color: yellowgreen; 
+}
+#angebot {
+    background-color: greenyellow; margin: 1em 3em; padding: 1em; width: 10em; 
+}
+#angebot p {
+    color: red;
+}
+#angebot h3 {
+    font-size: 2em; font-variant: small-caps; color: red;
+}
+#leistungen {
+    display: grid; grid-template-columns: 1fr 12em;
+}
+#leistungen h2 {
+    grid-column: 1/-1;
+}
+body {
+    max-width: 60em;
+    margin: 1em auto;
+    background-color: beige;
+  }
+h1 {
+    font-family: cursive;
+}
