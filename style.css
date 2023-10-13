@@ -122,6 +122,10 @@ h1 {
         height: 300px;
     }
 
+    .container {
+        flex-direction: column;
+    }
+
     .kachel,
     a>.kachel,
     .kachel.wide,
@@ -130,9 +134,9 @@ h1 {
         height: auto;
     }
 
-.kachel h3 {
-    font-size: 45px;
-}
+    .kachel h3 {
+        font-size: 45px;
+    }
 
     .kachel p {
         font-size: 36px;
