@@ -1,35 +1,98 @@
 h2 {
-    color: greenyellow; font-size: 28; background-color: black; font-family: cursive;
+    color: greenyellow;
+    font-size: 28;
+    background-color: black;
+    font-family: cursive;
 }
+
 p {
     font-size: 22;
 }
+
 li {
     font-size: 22;
 }
+
 a {
-    color: yellowgreen; 
+    color: yellowgreen;
+    text-decoration: none;
 }
-#angebot {
-    background-color: greenyellow; margin: 1em 3em; padding: 1em; width: 10em; 
+
+a:hover {
+    color: #f0c;
+    text-decoration: underline;
 }
-#angebot p {
-    color: red;
-}
-#angebot h3 {
-    font-size: 2em; font-variant: small-caps; color: red;
-}
+
+
+
 #leistungen {
-    display: grid; grid-template-columns: 1fr 12em;
+    display: grid;
+    grid-template-columns: 1fr 12em;
 }
+
 #leistungen h2 {
     grid-column: 1/-1;
 }
+
 body {
     max-width: 60em;
     margin: 1em auto;
     background-color: beige;
-  }
+}
+
 h1 {
     font-family: cursive;
+}
+
+.test {
+    color: #0012ff
+}
+
+
+.container {
+    display: flex;
+    margin: -10px;
+    flex-wrap: wrap;
+    
+}
+
+
+.kachel {
+    background-color: greenyellow;
+    margin: 12px;
+    padding: 1em;
+    width: 10em;
+    height: 10em;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.kachel:hover {
+box-shadow: #b3b39c 2px 10px 20px;
+border: 2px solid #113311;
+margin: 10px
+} 
+
+.kachel.wide {
+    width: 13em;
+}
+
+.kachel.small {
+    width: 7em;
+}
+
+.kachel p {
+    color: red;
+}
+
+.kachel h3 {
+    font-size: 2em;
+    font-variant: small-caps;
+    color: red;
+}
+
+.BilderContainer {
+    display: flex;
+    margin: -10px;
+    flex-wrap: wrap;
 }
